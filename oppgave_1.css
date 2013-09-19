@@ -1,4 +1,60 @@
 
+    body  {   					 /* Alt innenfor body utenom det som har fått ID eller Class vil få tekstypen beskrevet under*/
+    
+    padding-left: 11em;
+    
+      font-family: Georgia, "Times New Roman",    
+   		 Times, serif;
+   	 color: black;
+   	 background-color: #AAAA77 }
+   	 
+    ul.navbar  {   				 /* Her gir vi UL et classname, navbar så alt innenfor navbar får riktig plassering. */
+   	 list-style-type: none;  /* List-style-type: none fjerner "dottene" som kommer før hvert ord på en unordered list type. */
+   	 padding: 0;
+   	 margin: 0;
+   	 position: absolute;
+   	 top: 10em;
+   	 left: 1em;
+   	 width: 9em  }
+   	 
+    h1 {   						 /* h1 får her egen font. */
+   	 font-family: Helvetica, Geneva, Arial,
+   			 SunSans-Regular, sans-serif }
+   			 
+    ul.navbar li {   			 /* Listen som står under UL (Unordered list) blir endret */
+   	 background: white;    /* Bakgrunnsfarge hvit */
+   	 margin: 0.6em 0; 	/* Destte forteller avstanden mellom hver link */
+   	 padding: 0.3em;   	 /* Størrelse på hver hvite boks linkene står i */
+   	 border-right: 1em solid black } /* Sorte firkanten på høyre side inni den hvite boksen */
+   	 
+    ul.navbar a {
+   	 text-decoration: none }
+   	 
+   	 
+   	 /* Er linken ubesøkt så skal den være blå, besøkt skal den være lilla. */
+    a:link {
+   	 color: blue}
+    a:visited {
+   	 color: purple }
+	 
+   	 
+    hr{ /*  */
+
+    }
+
+
+
+
+
+<ul class="navbar">
+    <li><a href="hjem.html">Hjem</a>
+    <li><a href="kronologisk.html">Kronologisk</a>
+    <li><a href="hierarkisk.html">Hierarkisk</a>
+    <li><a href="alfabetisk.html">Alfabetisk</a>
+</ul>
+
+
+
 #hedder{
 text-align:center;
 }
